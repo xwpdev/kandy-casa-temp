@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-out_1",
-      "name": "out_1",
+      "name": "Kandy Casa - Front",
       "levels": [
         {
           "tileSize": 256,
