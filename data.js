@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-out_1",
-      "name": "Kandy Casa - Front",
+      "id": "0-kandy-casa---entrance",
+      "name": "Kandy Casa - Entrance",
       "levels": [
         {
           "tileSize": 256,
@@ -22,10 +22,10 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 2048,
+      "faceSize": 1368,
       "initialViewParameters": {
-        "yaw": -0.11679650999205471,
-        "pitch": -0.35119805334965903,
+        "yaw": 0.03473904499800362,
+        "pitch": -0.31646494843299955,
         "fov": 1.4095469020700806
       },
       "linkHotspots": [],
@@ -37,6 +37,6 @@ var APP_DATA = {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
     "fullscreenButton": true,
-    "viewControlButtons": true
+    "viewControlButtons": false
   }
 };
