@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-kandy-casa---entrance",
-      "name": "Kandy Casa - Entrance",
+      "name": "Kandy Casa - Balcony",
       "levels": [
         {
           "tileSize": 256,
@@ -24,9 +24,9 @@ var APP_DATA = {
       ],
       "faceSize": 1368,
       "initialViewParameters": {
-        "yaw": 0.03473904499800362,
-        "pitch": -0.31646494843299955,
-        "fov": 1.4095469020700806
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [],
       "infoHotspots": []
