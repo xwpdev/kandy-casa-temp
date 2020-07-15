@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-kandy-casa---entrance",
-      "name": "Kandy Casa - Balcony",
+      "id": "0-best_view",
+      "name": "best_view",
       "levels": [
         {
           "tileSize": 256,
