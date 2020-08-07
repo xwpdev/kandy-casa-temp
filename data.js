@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-gs__0135",
-      "name": "GS__0135",
+      "id": "0-upper-lobby",
+      "name": "Upper Lobby",
       "levels": [
         {
           "tileSize": 256,
@@ -30,17 +30,17 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.21876431714128053,
-          "pitch": 0.8488944692746401,
+          "yaw": -0.2066791194106834,
+          "pitch": 0.41466209793178876,
           "rotation": 0,
-          "target": "1-gs__0136"
+          "target": "1-upper-balcony"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-gs__0136",
-      "name": "GS__0136",
+      "id": "1-upper-balcony",
+      "name": "Upper Balcony",
       "levels": [
         {
           "tileSize": 256,
@@ -68,16 +68,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 3.0243669074082087,
-          "pitch": 0.7789204345182803,
+          "yaw": 2.969133576832869,
+          "pitch": 0.5473200119805579,
           "rotation": 0,
-          "target": "0-gs__0135"
+          "target": "0-upper-lobby"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Kandy Casa",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
