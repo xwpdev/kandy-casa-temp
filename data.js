@@ -134,7 +134,26 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -1.5315284873254207,
+          "pitch": 0.6590244568520021,
+          "rotation": 0,
+          "target": "13-room-1---entrance"
+        },
+        {
+          "yaw": 0.9624265756627004,
+          "pitch": 0.7468770179806103,
+          "rotation": 5.497787143782138,
+          "target": "3-staircase"
+        },
+        {
+          "yaw": 3.0331151260244082,
+          "pitch": 0.25514330475283487,
+          "rotation": 0,
+          "target": "0-entrance"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -177,6 +196,18 @@ var APP_DATA = {
           "pitch": 0.18780728325930696,
           "rotation": 4.71238898038469,
           "target": "5-dining-area"
+        },
+        {
+          "yaw": -0.30140943565871403,
+          "pitch": 0.002120464798069932,
+          "rotation": 0,
+          "target": "10-staircase"
+        },
+        {
+          "yaw": 2.866384210616018,
+          "pitch": 0.2625334498910803,
+          "rotation": 0,
+          "target": "0-entrance"
         }
       ],
       "infoHotspots": []
@@ -209,7 +240,20 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.9836691739116326,
+          "pitch": 0.3698610844726833,
+          "rotation": 0,
+          "target": "5-dining-area"
+        },
+        {
+          "yaw": -2.3199597028576164,
+          "pitch": 0.43274351864502236,
+          "rotation": 0,
+          "target": "3-staircase"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -246,6 +290,12 @@ var APP_DATA = {
           "pitch": 0.3886786086341516,
           "rotation": 0,
           "target": "9-outside-view-2"
+        },
+        {
+          "yaw": -1.039988566271262,
+          "pitch": 0.40001175761329577,
+          "rotation": 0,
+          "target": "1-lobby"
         }
       ],
       "infoHotspots": []
@@ -409,7 +459,20 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.063614794860996,
+          "pitch": 0.07794616700949497,
+          "rotation": 0,
+          "target": "11-first-floor---lobby"
+        },
+        {
+          "yaw": 1.5973724136197243,
+          "pitch": 0.3383008464950432,
+          "rotation": 0,
+          "target": "0-entrance"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -440,11 +503,68 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 1.3818679909853735,
+          "pitch": 0.896486431475676,
+          "rotation": 0,
+          "target": "22-room-2---entrance"
+        },
+        {
+          "yaw": -0.6661611333934907,
+          "pitch": 0.6005222130739671,
+          "rotation": 0,
+          "target": "12-first-floor---lobby"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "12-room-1---entrance",
+      "id": "12-first-floor---lobby",
+      "name": "First Floor - Lobby",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1440,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.09717519784322093,
+          "pitch": 0.7929695823752034,
+          "rotation": 0,
+          "target": "29-room-3---entrance"
+        },
+        {
+          "yaw": -0.8649641262251642,
+          "pitch": 0.7787236700946139,
+          "rotation": 0,
+          "target": "34-room-4---entrance"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "13-room-1---entrance",
       "name": "Room 1 - Entrance",
       "levels": [
         {
@@ -471,11 +591,18 @@ var APP_DATA = {
         "pitch": 0.35100258828656905,
         "fov": 1.4134061960355204
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -1.5508548728918132,
+          "pitch": 0.847764847526765,
+          "rotation": 0,
+          "target": "14-room-1---stairs"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "13-room-1---stairs",
+      "id": "14-room-1---stairs",
       "name": "Room 1 - Stairs",
       "levels": [
         {
@@ -502,11 +629,18 @@ var APP_DATA = {
         "pitch": -0.06405776101255611,
         "fov": 1.4134061960355204
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -2.9457145944275034,
+          "pitch": 0.3807808524182086,
+          "rotation": 0,
+          "target": "15-room-1---inside"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "14-room-1---inside",
+      "id": "15-room-1---inside",
       "name": "Room 1 - Inside",
       "levels": [
         {
@@ -533,11 +667,24 @@ var APP_DATA = {
         "pitch": 0.13553641407789563,
         "fov": 1.4134061960355204
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.8594389122849133,
+          "pitch": 0.560960378348824,
+          "rotation": 0,
+          "target": "17-room-1---view--2"
+        },
+        {
+          "yaw": -1.3576120136936503,
+          "pitch": 0.3973564987840206,
+          "rotation": 0,
+          "target": "16-room-1---view"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "15-room-1---view",
+      "id": "16-room-1---view",
       "name": "Room 1 - View",
       "levels": [
         {
@@ -568,7 +715,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "16-room-1---view--2",
+      "id": "17-room-1---view--2",
       "name": "Room 1 - View  2",
       "levels": [
         {
@@ -599,7 +746,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "17-room-1---view-3",
+      "id": "18-room-1---view-3",
       "name": "Room 1 - View 3",
       "levels": [
         {
@@ -626,11 +773,18 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.09641669339728764,
+          "pitch": 0.7725287596886528,
+          "rotation": 0,
+          "target": "19-room-1---balcony-2"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "18-room-1---balcony-2",
+      "id": "19-room-1---balcony-2",
       "name": "Room 1 - Balcony 2",
       "levels": [
         {
@@ -661,7 +815,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "19-room-1---balcony-view",
+      "id": "20-room-1---balcony-view",
       "name": "Room 1 - Balcony View",
       "levels": [
         {
@@ -692,7 +846,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "20-room-1---bed",
+      "id": "21-room-1---bed",
       "name": "Room 1 - Bed",
       "levels": [
         {
@@ -723,7 +877,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "21-room-2---entrance",
+      "id": "22-room-2---entrance",
       "name": "Room 2 - Entrance",
       "levels": [
         {
@@ -746,15 +900,15 @@ var APP_DATA = {
       ],
       "faceSize": 1440,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.9718561889159343,
+        "pitch": 0.22034130096538362,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "22-room-2---view",
+      "id": "23-room-2---view",
       "name": "Room 2 - View",
       "levels": [
         {
@@ -781,11 +935,18 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -0.23327639022161506,
+          "pitch": 0.3708819625009667,
+          "rotation": 0,
+          "target": "23-room-2---view"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "23-room-2---view-2",
+      "id": "24-room-2---view-2",
       "name": "Room 2 - View 2",
       "levels": [
         {
@@ -812,11 +973,30 @@ var APP_DATA = {
         "pitch": 0.39694190122679984,
         "fov": 1.4134061960355204
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.5016766873572944,
+          "pitch": 0.4248043611150365,
+          "rotation": 0,
+          "target": "23-room-2---view"
+        },
+        {
+          "yaw": -0.07687034232559498,
+          "pitch": 0.6418546766012785,
+          "rotation": 0,
+          "target": "25-room-2---outside-view"
+        },
+        {
+          "yaw": 2.867824887129939,
+          "pitch": 0.37986806138112783,
+          "rotation": 0,
+          "target": "28-room-3---balcony"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "24-room-2---outside-view",
+      "id": "25-room-2---outside-view",
       "name": "Room 2 - Outside view",
       "levels": [
         {
@@ -843,11 +1023,18 @@ var APP_DATA = {
         "pitch": -0.022304961466026896,
         "fov": 1.4134061960355204
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -0.3545472108946317,
+          "pitch": 0.8545863240415628,
+          "rotation": 0,
+          "target": "26-room-2---balcony"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "25-room-2---balcony",
+      "id": "26-room-2---balcony",
       "name": "Room 2 - Balcony",
       "levels": [
         {
@@ -878,7 +1065,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "26-room-2---bathroom",
+      "id": "27-room-2---bathroom",
       "name": "Room 2 - Bathroom",
       "levels": [
         {
@@ -909,8 +1096,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "27-first-floor---balcony",
-      "name": "First Floor - Balcony",
+      "id": "28-room-3---balcony",
+      "name": "Room 3 - Balcony",
       "levels": [
         {
           "tileSize": 256,
@@ -935,37 +1122,6 @@ var APP_DATA = {
         "yaw": 1.0017185580070365,
         "pitch": 0.10292684912613836,
         "fov": 1.4134061960355204
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "28-first-floor---lobby",
-      "name": "First Floor - Lobby",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1440,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
       },
       "linkHotspots": [],
       "infoHotspots": []
@@ -998,7 +1154,14 @@ var APP_DATA = {
         "pitch": 0.21623287631538446,
         "fov": 1.4134061960355204
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.6768929090817046,
+          "pitch": 0.359810536198351,
+          "rotation": 0,
+          "target": "30-room-3---view"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -1029,7 +1192,20 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -2.631974140419249,
+          "pitch": 0.449273712584759,
+          "rotation": 0,
+          "target": "29-room-3---entrance"
+        },
+        {
+          "yaw": -0.3706418724023077,
+          "pitch": 0.38361429175268924,
+          "rotation": 0,
+          "target": "31-room-3---view-2"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -1060,42 +1236,30 @@ var APP_DATA = {
         "pitch": -0.014231092690414116,
         "fov": 1.4134061960355204
       },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "32-room-3---view-3",
-      "name": "Room 3 - View 3",
-      "levels": [
+      "linkHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "yaw": 2.4027894922935404,
+          "pitch": 0.41581873355468346,
+          "rotation": 0,
+          "target": "30-room-3---view"
         },
         {
-          "tileSize": 512,
-          "size": 512
+          "yaw": 2.6073139596436974,
+          "pitch": 0.7378155246682265,
+          "rotation": 0,
+          "target": "32-room-3---beds"
         },
         {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
+          "yaw": 0.7202202754020881,
+          "pitch": 0.8119173069493453,
+          "rotation": 0,
+          "target": "28-room-3---balcony"
         }
       ],
-      "faceSize": 1440,
-      "initialViewParameters": {
-        "yaw": -1.0682032668002286,
-        "pitch": 0.13444775949905008,
-        "fov": 1.4134061960355204
-      },
-      "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "33-room-3---beds",
+      "id": "32-room-3---beds",
       "name": "Room 3 - Beds",
       "levels": [
         {
@@ -1126,7 +1290,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "34-room-3---balcony",
+      "id": "33-room-3---balcony",
       "name": "Room 3 - Balcony",
       "levels": [
         {
@@ -1157,7 +1321,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "35-room-4---entrance",
+      "id": "34-room-4---entrance",
       "name": "Room 4 - Entrance",
       "levels": [
         {
@@ -1184,11 +1348,18 @@ var APP_DATA = {
         "pitch": 0.06367300582611257,
         "fov": 1.4134061960355204
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -3.1127200849431453,
+          "pitch": 0.8950366696057515,
+          "rotation": 0,
+          "target": "35-room-4---view"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "36-room-4---view",
+      "id": "35-room-4---view",
       "name": "Room 4 - View",
       "levels": [
         {
@@ -1215,11 +1386,18 @@ var APP_DATA = {
         "pitch": 0.32454252998940447,
         "fov": 1.4134061960355204
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.8178209784529047,
+          "pitch": 0.7591101734901251,
+          "rotation": 0,
+          "target": "36-room-4---bed"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "37-room-4---bed",
+      "id": "36-room-4---bed",
       "name": "Room 4 - Bed",
       "levels": [
         {
@@ -1246,11 +1424,18 @@ var APP_DATA = {
         "pitch": 0.18373007332450442,
         "fov": 1.4134061960355204
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.9826106965367316,
+          "pitch": 0.46863465466472043,
+          "rotation": 0,
+          "target": "37-room-4---bed-2"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "38-room-4---bed-2",
+      "id": "37-room-4---bed-2",
       "name": "Room 4 - Bed 2",
       "levels": [
         {
@@ -1277,11 +1462,18 @@ var APP_DATA = {
         "pitch": 0.4542401724972045,
         "fov": 1.4134061960355204
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -2.2534188079590933,
+          "pitch": 0.4148654919186079,
+          "rotation": 0,
+          "target": "38-room-4---view"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "39-room-4---view",
+      "id": "38-room-4---view",
       "name": "Room 4 - View",
       "levels": [
         {
@@ -1308,7 +1500,14 @@ var APP_DATA = {
         "pitch": 0.2828632233157169,
         "fov": 1.4134061960355204
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -0.38571509773345447,
+          "pitch": 0.19989005849179264,
+          "rotation": 0,
+          "target": "11-first-floor---lobby"
+        }
+      ],
       "infoHotspots": []
     }
   ],
